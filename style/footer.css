@@ -1,0 +1,254 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer-top-bar{
+    background-color: var(--text-gray-2);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.8rem;
+    text-align: center;
+}
+.footer{
+    margin-top: 4rem;
+    padding: 0;
+}
+.footer .footer-top-bar p, .footer .footer-top-bar a{
+    margin: 0;
+    margin: 0.2rem;
+    font-size: 1.15em;
+    font-family: var(--font-2);
+    color: var(--text-white-2);
+}
+.footer .footer-top-bar a{
+    font-size: 1.05em;
+    transition: 0.4s;
+}
+.footer .footer-top-bar a:hover{
+    color: var(--text-gray);
+}
+.footer .footer-bottom-bar{
+    margin: auto;
+    padding: 2rem 0;
+}
+.footer .footer-bottom-bar .content, .footer-mobile .accordion-item .accordion-collapse .accordion-body{
+    font-family: var(--font-2);
+    font-size: 0.85em;
+}
+.footer .footer-bottom-bar .content .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+.footer .footer-bottom-bar .content .logo, .footer .footer-bottom-bar .content .title{
+    margin-top: 1rem;
+}
+.footer .footer-bottom-bar .content .logo img{
+    width: 50px;
+}
+.footer .footer-bottom-bar .content .logo p{
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0.2rem;
+    color: var(--text-gray-header);
+}
+.footer .footer-bottom-bar .content .website-details address, .footer-mobile .accordion-item .accordion-collapse .accordion-body .website-details address{
+    color: var(--text-gray-2);
+    margin: 0.5rem 0;
+}
+.footer-mobile .accordion-item .accordion-collapse .accordion-body .website-details address{
+    color: var(--text-gray-2);
+}
+.footer .footer-bottom-bar .content .website-details p, .footer-mobile .accordion-item .accordion-collapse .accordion-body .website-details p{
+    margin: 0;
+    margin: 0.7rem 0;
+}
+.footer .footer-bottom-bar .content .website-details p span, .footer-mobile .accordion-item .accordion-collapse .accordion-body .website-details p span{
+    font-weight: bold;
+    color: var(--text-gray-header);
+    font-family: var(--option-bar-font-h1);
+    font-size: 1.15em;
+}
+.footer .footer-bottom-bar .content .website-details a, .footer-mobile .accordion-item .accordion-collapse .accordion-body .website-details a{
+    text-decoration: none;
+    color: var(--text-gray-2);
+    transition: 0.4s;
+}
+.footer .footer-bottom-bar .content .website-details a:hover, .footer-mobile .accordion-item .accordion-collapse .accordion-body .website-details a:hover{
+    color: var(--pink);
+}
+.footer .footer-bottom-bar .content .title, .footer-mobile .accordion-item .accordion-header .accordion-button p{
+    font-size: 1.3em;
+    margin-bottom: 0.2rem;
+    font-family: var(--font-1);
+    color: var(--text-gray-2);
+}
+.footer-mobile .accordion-item .accordion-header .accordion-button p{
+    font-size: 1em;
+}
+.footer .footer-bottom-bar .content ul, .footer-mobile .accordion-item .accordion-collapse .accordion-body ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+.footer .footer-bottom-bar .content ul li, .footer-mobile .accordion-item .accordion-collapse .accordion-body ul li{
+    margin-top: 1rem;
+}
+.footer .footer-bottom-bar .content ul li a, .footer-mobile .accordion-item .accordion-collapse .accordion-body ul li a{
+    color: var(--text-gray-2);
+    text-decoration: none;
+    transition: 0.4s;
+}
+.footer .footer-bottom-bar .content ul li a:hover, .footer-mobile .accordion-item .accordion-collapse .accordion-body ul li a:hover{
+    color: var(--pink);
+}
+.footer .footer-bottom-bar .content .newletter-des{
+    margin-top: 1rem;
+}
+.footer .footer-bottom-bar .content .email-bar, .footer-mobile .accordion-item .accordion-collapse .accordion-body .email-bar{
+    background-color: var(--bg-1);
+    padding: 0.2rem;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    display: flex;
+    align-items: center;
+}
+.footer .footer-bottom-bar .content .email-bar input, .footer-mobile .accordion-item .accordion-collapse .accordion-body .email-bar input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+}
+.footer .footer-bottom-bar .content .email-bar button, .footer-mobile .accordion-item .accordion-collapse .accordion-body .email-bar button{
+    background-color: var(--pink);
+    border: none;
+    padding: 0.5rem;
+    transition: 0.4s;
+}
+.footer .footer-bottom-bar .content .email-bar button:hover, .footer-mobile .accordion-item .accordion-collapse .accordion-body .email-bar button:hover{
+    background-color: var(--text-gray-header);
+}
+.footer .footer-bottom-bar .content .email-bar button i, .footer-mobile .accordion-item .accordion-collapse .accordion-body .email-bar button i{
+    color: var(--text-white-2);
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 992px) {
+    .footer .footer-top-bar p{
+        font-size: 1em;
+    }
+    .footer .footer-top-bar a{
+        font-size: 0.9em;
+    }
+}
+
+.footer-bottom-details-bar{
+    padding: 1.2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom-details-bar .sosial-media a i{
+    color: var(--text-gray-2);
+    width: 27px;
+    height: 27px;
+    padding: 0.4rem;
+    margin-right: 0.2rem;
+    background-color: var(--bg-1);
+    border-radius: 100px;
+    border: 1px solid rgba(139, 139, 139, 0.137);
+    font-size: 0.95em;
+    transition: 0.4s;
+}
+.footer-bottom-details-bar .sosial-media a .fa-facebook:hover{
+    background-color: 	#4267B2;
+    color: var(--text-white);
+}
+.footer-bottom-details-bar .sosial-media a .fa-twitter:hover{
+    background-color: 	#1DA1F2;
+    color: var(--text-white);
+}
+.footer-bottom-details-bar .sosial-media a .fa-instagram:hover{
+    background-color: #C13584;
+    color: var(--text-white);
+}
+.footer-bottom-details-bar .sosial-media a .fa-linkedin:hover{
+    background-color: #0072b1;
+    color: var(--text-white);
+}
+.footer-bottom-details-bar .payment-info-img{
+    text-align: center;
+}
+.footer-bottom-details-bar .payment-info-img img{
+    width: 50px;
+    height: 35px;
+    margin-left: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    object-fit: contain;
+    padding: 0.3rem;
+}
+.copright-text p{
+    margin: 0;
+    font-family: var(--font-2);
+    color: var(--text-gray-2);
+    text-transform: capitalize;
+    text-align: center;
+}
+.copright-text p a{
+    color: var(--pink);
+    text-decoration: none;
+    transition: 0.4s;
+    margin: 0 0.3rem;
+}
+.copright-text p a:hover{
+    color: var(--text-gray-2);
+}
+
+@media screen and (max-width: 992px) {
+    .footer-bottom-details-bar{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .copright-text p{
+        margin-top: 1.5rem;
+    }
+    .footer-bottom-details-bar .payment-info-img img{
+        margin-top: 1.5rem;
+    }
+    .footer .footer-bottom-bar .content .logo{
+        justify-content: center;
+    }
+    .footer .footer-bottom-bar .content .website-details{
+        text-align: center;
+    }
+    .footer .footer-bottom-bar .content .website-details .contact-item{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer .footer-bottom-bar .content .website-details .contact-item p{
+        margin-right: 1rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .copright-text p{
+        font-size: 0.9em;
+    }
+}
+
+.footer-mobile .accordion-item .accordion-header .accordion-button{
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.185);
+}
+.footer-mobile .accordion-item .accordion-collapse{
+    padding: 0rem auto;
+}

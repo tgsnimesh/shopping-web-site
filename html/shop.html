@@ -1,0 +1,1666 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <!--Fav Icon-->
+    <link rel="icon" href="../img/logo/logo.png">
+
+      <!--likn bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!--link css-->
+    <link rel="stylesheet" href="../style/heder.css">
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/item-list-style-2.css">
+    <link rel="stylesheet" href="../style/item-list-style-1.css">
+    <link rel="stylesheet" href="../style/top-vendor-card.css">
+    <link rel="stylesheet" href="../style/shop.css">
+
+    <!--link google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <!--link fa fa icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <!--Header-->
+    <header class="">
+        <!--Header 01-->
+        <div class="header-01 container">
+            <!--sosial media link (show only lg screen - hide mobile screen)-->
+            <div class="sosial-media d-none d-lg-block">
+                <!--LINK TO SOSIAL MEDIA LINK-->
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></i>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></i>
+                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></i>
+            </div>
+            <!--cener offer text banner (show only sm screen)-->
+            <div class="header-offer-text d-none d-sm-block">
+                <p>free shipping this weekorder over - $75</p>
+            </div>
+            <!--right option bar (show only lg screen - hide mobile screen)-->
+            <div class="right-select-option-aria d-none d-lg-block">
+                <div>
+                    <div class="dropdown">
+                        <button class="dropdown-toggle button" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          currency
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">usd &#36;</a></li>
+                          <li><a class="dropdown-item" href="#">sl  rs</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown-toggle button" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          language
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">english</a></li>
+                          <li><a class="dropdown-item" href="#">sinhala</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--right icon option bar (show only mobile screen)-->
+            <div class="right-mobile-option-bar d-lg-none">
+                <div class="d-sm-none">
+                    <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                </div>
+                <div class="right-side">
+                    <a href=""><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-heart-o position-relative" aria-hidden="true">
+                        <span class="badge-style-1 position-absolute top-100 start-100 translate-middle badge rounded-pill">
+                            <p class="m-0 p-0">3</p>
+                        </span>
+                    </i></a>
+                    <a data-bs-toggle="offcanvas" href="#offcanvasmycard" role="button" aria-controls="offcanvasExample"><i class="fa fa-shopping-basket position-relative" aria-hidden="true">
+                        <span class="badge-style-1 position-absolute top-100 start-100 translate-middle badge rounded-pill">
+                            <p class="m-0 p-0">10</p>
+                        </span>
+                    </i></a>
+                    <a data-bs-toggle="offcanvas" href="#offcanvascategory" role="button" aria-controls="offcanvasExample"><i class="fa fa-th-large d-none" aria-hidden="true"></i></a>
+                    <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" class="d-none d-sm-block"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--left mobite my menu-->
+        <div class="offcanvas offcanvas-start my-menu-mobile" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">My Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <hr class="hr-1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Categories</a></li>
+                    <li><a href="shop.html">Products</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">others</a></li>
+                    <li><a href="">Bocg</a></li>
+                    <li><a href="">Elements</a></li>
+                    <li><a href="offer.html">Hot Offers</a></li>
+                </ul>
+                <hr class="hr-1">
+                <div class="accordion accordion-flush category-mobile-list mt-5" id="mobileCategoryList1">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">
+                            <p>LANGUAGE</p>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne1" data-bs-parent="#mobileCategoryList1">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href=""><span>ENGLISH</span><span></span></a></li>
+                                <li><a href=""><span>SINHALA</span><span></span></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo1" aria-expanded="false" aria-controls="flush-collapseTwo1">
+                          <p>CURRENCY</p>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo1" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo1" data-bs-parent="#mobileCategoryList1">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href=""><span>US</span><span>$</span></a></li>
+                                <li><a href=""><span>SL</span><span>SLRS</span></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="sosial-media text-center mt-3">
+                    <!--LINK TO SOSIAL MEDIA LINK-->
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></i>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></i>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></i>
+                </div>
+            </div>
+        </div>
+        <!--right mobite my card-->
+        <div class="offcanvas offcanvas-end mycard" tabindex="-1" id="offcanvasmycard" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">My Card</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <hr class="hr-1">
+            <div class="offcanvas-body">
+                
+                <div class="my-card-container">
+                    <div class="card-item-list">
+
+                        <div class="item">
+                            <div class="img">
+                                <img src="../img/shop-item/t-shut/01/tshut-02.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="item-dis">
+                                <a href="">Men's T-Shirt</a>
+                                <p>$76.00<span>x 1</span></p>
+                                <div class="quentity-bar">
+                                    <button type="button">-</button>
+                                    <p>1</p>
+                                    <button type="button">+</button>
+                                </div>
+                            </div>
+                            <div class="btn-remove-item">
+                                <button type="button" id="btn-my-card-item-remove">X</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img">
+                                <img src="../img/shop-item/smart-watch/1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="item-dis">
+                                <a href="">Smart Watch</a>
+                                <p>$190.00<span>x 1</span></p>
+                                <div class="quentity-bar">
+                                    <button type="button">-</button>
+                                    <p>1</p>
+                                    <button type="button">+</button>
+                                </div>
+                            </div>
+                            <div class="btn-remove-item">
+                                <button type="button" id="btn-my-card-item-remove">X</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img">
+                                <img src="../img/shop-item/jaket/01/jacket-1-pink-gir.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="item-dis">
+                                <a href="">Girl's Pink Jacket</a>
+                                <p>$55.00<span>x 1</span></p>
+                                <div class="quentity-bar">
+                                    <button type="button">-</button>
+                                    <p>1</p>
+                                    <button type="button">+</button>
+                                </div>
+                            </div>
+                            <div class="btn-remove-item">
+                                <button type="button" id="btn-my-card-item-remove">X</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card-information-bar">
+                        <hr class="hr-1 mb-2">
+                        <div>
+                            <p class="sub-total">Sub Total : </p><span>$300.00</span>
+                        </div>
+                        <div>
+                            <p class="vat">VAT (20%) : </p><span>$60.00</span> 
+                        </div>
+                        <div>
+                            <p class="total">Total : </p><span>$360.00</span>
+                        </div>
+                        <div class="btn">
+                            <button type="button" class="btn-view-card">view card</button>
+                            <button type="button" class="btn-checkout">checkout</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--right mobite caregory-->
+        <div class="offcanvas offcanvas-start category" tabindex="-1" id="offcanvascategory" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header mt-4">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">CATEGORY</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+                <!--Category List-->
+                <div class="accordion accordion-flush category-mobile-list" id="mobileCategoryList">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <p><i class="fa fa-shopping-bag" aria-hidden="true"></i></i>Cothes</p>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#mobileCategoryList">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href=""><span>Shirt</span><span>-25</span></a></li>
+                                <li><a href=""><span>Shorts & Jeans</span><span>-52</span></a></li>
+                                <li><a href=""><span>Jacket</span><span>-500</span></a></li>
+                                <li><a href=""><span>Dress & Frock</span><span>-35</span></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          <p><i class="fa fa-shopping-bag" aria-hidden="true"></i>Footwear</p>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#mobileCategoryList">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href=""><span>Sport</span><span>-50</span></a></li>
+                                <li><a href=""><span>Formal</span><span>-52</span></a></li>
+                                <li><a href=""><span>Casual</span><span>-120</span></a></li>
+                                <li><a href=""><span>Safty Shoes</span><span>-50</span></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          <p><i class="fa fa-shopping-bag" aria-hidden="true"></i>Jevelry</p>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#mobileCategoryList">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href=""><span>Earrings</span><span>-65</span></a></li>
+                                <li><a href=""><span>Couple Rings</span><span>-35</span></a></li>
+                                <li><a href=""><span>Necklase</span><span>-40</span></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            <p><i class="fa fa-shopping-bag" aria-hidden="true"></i>Perfume</p>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#mobileCategoryList">
+                          <div class="accordion-body">
+                            <ul>
+                                <li><a href=""><span>Clothes Perfume</span><span>-4 Pcs</span></a></li>
+                                <li><a href=""><span>Deodorant</span><span>-52 Pcs</span></a></li>
+                                <li><a href=""><span>Flower Fragrance</span><span>-10 Pack</span></a></li>
+                                <li><a href=""><span>Air Freshener</span><span>-35 Pack</span></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            <p><i class="fa fa-shopping-bag" aria-hidden="true"></i>Cosmetics</p>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#mobileCategoryList">
+                          <div class="accordion-body">
+                            <ul>
+                                <li><a href=""><span>Shampoo</span><span></span></a></li>
+                                <li><a href=""><span>Sunscreen</span><span></span></a></li>
+                                <li><a href=""><span>Body Wash</span><span></span></a></li>
+                                <li><a href=""><span>Makeup Kit</span><span></span></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            <p><i class="fa fa-shopping-bag" aria-hidden="true"></i>Glasses</p>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#mobileCategoryList">
+                          <div class="accordion-body">
+                            <ul>
+                                <li><a href=""><span>Sun Glasses</span><span>-25</span></a></li>
+                                <li><a href=""><span>Lenses</span><span>-52</span></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            <p><i class="fa fa-shopping-bag" aria-hidden="true"></i>Bags</p>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#mobileCategoryList">
+                          <div class="accordion-body">
+                            <ul>
+                                <li><a href=""><span>Shopping Bags</span><span>-25</span></a></li>
+                                <li><a href=""><span>Gym Backpack</span><span>-52</span></a></li>
+                                <li><a href=""><span>Paurs</span><span>-500</span></a></li>
+                                <li><a href=""><span>Wallet</span><span>-35</span></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="bottom-caro">
+                        <div class="title-bar">
+                            <h2>Best Sellers</h2>
+                            <div class="slide-button">
+                                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+
+                        <hr class="hr-1 mb-1">
+
+                        <div class="caro">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+
+                                  <div class="carousel-item active">
+                                        <div class="item">
+                                            <div class="img">
+                                                <a href=""><img src="../img/shop-item/jaket/01/jacket-1-pink-gir.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+                                            <div class="des">
+                                                <a href="">Girl's Jacket</a>
+                                                <div class="vote">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star not" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="normal">$15.00</p>
+                                                    <p class="discount">$12.00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <a href=""><img src="../img/shop-item/t-shut/01/tshut-01.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+                                            <div class="des">
+                                                <a href="">Men's Hoodies T-Shirt</a>
+                                                <div class="vote">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star not" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="normal">$25.00</p>
+                                                    <p class="discount">$19.99</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <a href=""><img src="../img/shop-item/smart-watch/1.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+                                            <div class="des">
+                                                <a href="">Smart Watch</a>
+                                                <div class="vote">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star not" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="normal">$150.00</p>
+                                                    <p class="discount">$130.99</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <a href=""><img src="../img/shop-item/tru/1.jpg" alt="" class="img-fluid"></a>
+                                            </div>
+                                            <div class="des">
+                                                <a href="">Girl's Trousers</a>
+                                                <div class="vote">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star not" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="price">
+                                                    <p class="normal">$6.00</p>
+                                                    <p class="discount">$4.99</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="item">
+                                        <div class="img">
+                                            <a href=""><img src="../img/shop-item/t-shut/01/tshut-01.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                        <div class="des">
+                                            <a href="">Men's Hoodies T-Shirt</a>
+                                            <div class="vote">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star not" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="price">
+                                                <p class="normal">$25.00</p>
+                                                <p class="discount">$19.99</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img">
+                                            <a href=""><img src="../img/shop-item/tru/1.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                        <div class="des">
+                                            <a href="">Girl's Trousers</a>
+                                            <div class="vote">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star not" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="price">
+                                                <p class="normal">$6.00</p>
+                                                <p class="discount">$4.99</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img">
+                                            <a href=""><img src="../img/shop-item/smart-watch/1.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                        <div class="des">
+                                            <a href="">Smart Watch</a>
+                                            <div class="vote">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star not" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="price">
+                                                <p class="normal">$150.00</p>
+                                                <p class="discount">$130.99</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img">
+                                            <a href=""><img src="../img/shop-item/jaket/01/jacket-1-pink-gir.jpg" alt="" class="img-fluid"></a>
+                                        </div>
+                                        <div class="des">
+                                            <a href="">Girl's Jacket</a>
+                                            <div class="vote">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star not" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="price">
+                                                <p class="normal">$15.00</p>
+                                                <p class="discount">$12.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                  </div>
+                <!--Category List end-->
+
+            </div>
+        </div>
+          <!--Header 01 end-->
+
+        <hr class="hr-1">
+
+        <!--Header 02-->
+        <div class="container row header-02">
+            <div class="logo-container col-12 col-sm-3 ">
+                <img src="../img/logo/logo.png" alt="" class="img-fluid">
+                <h1>Shop</h1>
+            </div>
+            <div class="search-bar col-12 col-sm-6">
+                <div class="search">
+                    <input type="text" placeholder="Enter Your Product Name..." class="w-100">
+                    <button type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="right-icon-menu col-3 d-none d-lg-block">
+                <div>
+                    <a href=""><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-heart-o position-relative" aria-hidden="true">
+                        <span class="badge-style-1 position-absolute top-100 start-100 translate-middle badge rounded-pill">
+                            <p class="m-0 p-0">3</p>
+                        </span>
+                    </i></a>
+                    <a data-bs-toggle="offcanvas" href="#offcanvasmycard" role="button" aria-controls="offcanvasExample"><i class="fa fa-shopping-basket position-relative" aria-hidden="true">
+                        <span class="badge-style-1 position-absolute top-100 start-100 translate-middle badge rounded-pill">
+                            <p class="m-0 p-0">10</p>
+                        </span>
+                    </i></a>
+                </div>
+            </div>
+        </div>
+        <!--Header 02 end-->
+
+        <hr class="hr-1">
+
+        <!--Header 03-->
+        <div class="container header-03 d-none d-lg-block position-relative">
+            <div>
+                <div class="left-icon-btn">
+                    <a data-bs-toggle="offcanvas" href="#offcanvascategory" role="button" aria-controls="offcanvasExample"><i class="fa fa-th-large d-none" aria-hidden="true"></i></a>
+                </div>
+                <div class="center-nav-bar">
+                    <ul>
+                        <li><a href="index.html" >home</a></li>
+                        <li><a href="" id="caregory-link">categories</a></li>
+                        <li class="act"><a href="shop.html">products</a></li>
+                        <li><a href="">pages</a></li>
+                        <li><a href="">others
+                            <div class="spinner-grow m-auto" role="status"></div>
+                        </a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">elements</a></li>
+                        <li><a href="offer.html">hot offers
+                            <div class="spinner-grow m-auto" role="status"></div>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="right-icon-btn">
+                    <a href=""><i class="fa fa-sort-amount-desc"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--Header 03 end-->
+
+        <!-- page indicator -->
+        <div class="page-indigatorcontainer">
+            <div class="page-indigatorcontainer-container container">
+                <div class="page-title">
+                    <p>Shop</p>
+                </div>
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- page indicator end-->
+
+    </header>
+    <!--Header end-->
+
+     <!-- Top pruduct -->
+     <div class="h-01 pt-5 mb-4">
+        <h2>Top Products</h2>
+        <p>Browse The Collection of Top Products</p>
+    </div>
+    <div class="hot-offer-container container">
+        <div class="item-box-row row">
+            <div class="item-box col-lg-4 col-md-6">
+                <div class="item">
+                    <div class="item-border">
+                        <div class="img-box">
+                            <img src="../img/shop-item/smart-watch/1.jpg" alt="" class="img-fluid w-100 border">
+                        </div>
+                        <div class="item-info">
+                            <p class="title">Branded Smart Watch</p>
+                            <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit Nam enim ut.</p>
+                            <button type="button">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-box col-lg-4 col-md-6">
+                <div class="item">
+                    <div class="item-border">
+                        <div class="img-box">
+                            <img src="../img/shop-item/t-shut/01/tshut-01.jpg" alt="" class="img-fluid w-100 border">
+                        </div>
+                        <div class="item-info">
+                            <p class="title">Boy's T-Shirt</p>
+                            <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit Nam enim ut.</p>
+                            <button type="button">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-box col-lg-4 col-md-6">
+                <div class="item">
+                    <div class="item-border">
+                        <div class="img-box">
+                            <img src="../img/shop-item/jaket/01/jacket-1-yellow.jpg" alt="" class="img-fluid w-100 border">
+                        </div>
+                        <div class="item-info">
+                            <p class="title">Jacket</p>
+                            <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit Nam enim ut.</p>
+                            <button type="button">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Product end-->
+
+    <!--New Arrivals aria-->
+    <div class="h-01 mb-1 mt-5 pt-5">
+        <h2>our products</h2>
+        <p>Browse The Collection of our products</p>
+    </div>
+
+    <div class="container filter-product-button">
+        <div>
+            <a data-bs-toggle="offcanvas" href="#offcanvasExample1" role="button" aria-controls="offcanvasExample">Filter product By <i class="fa fa-search-plus" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <!--Filter Box-->
+      <div class="offcanvas offcanvas-start filter-aria" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel1">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel1">Filter Product</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            
+           <div class="filter-container">
+                <div class="filter-category">
+                    <p class="title">Category</p>
+                    <form action="" method="">
+                        <div class="f-item">
+                            <input type="checkbox">
+                            <label for="">Clothes</label>
+                        </div>
+                        <div class="f-item">
+                            <input type="checkbox">
+                            <label for="">Bag</label>
+                        </div>
+                        <div class="f-item">
+                            <input type="checkbox">
+                            <label for="">Shoes</label>
+                        </div>
+                        <div class="f-item">
+                            <input type="checkbox">
+                            <label for="">Electrics</label>
+                        </div>
+                        <div class="f-item">
+                            <input type="checkbox">
+                            <label for="">Phone</label>
+                        </div>
+                    </form>
+                </div>
+                <hr>
+                <div class="filter-size">
+                    <p class="title">Size</p>
+                    <form action="" method="">
+                        <div class="f-item">
+                            <input type="checkbox">
+                            <label for="">S</label>
+                        </div>
+                        <div class="f-item">
+                            <input type="checkbox">
+                            <label for="">M</label>
+                        </div>
+                        <div class="f-item">
+                            <input type="checkbox">
+                            <label for="">L</label>
+                        </div>
+                        <div class="f-item">
+                            <input type="checkbox">
+                            <label for="">XL</label>
+                        </div>
+                        <div class="f-item">
+                            <input type="checkbox">
+                            <label for="">XXL</label>
+                        </div>
+                    </form>
+                </div>
+                <hr>
+                <div class="filter-color">
+                    <p class="title">Color</p>
+                    <button class="btn1"></button>
+                    <button class="btn2"></button>
+                    <button class="btn3"></button>
+                    <button class="btn4"></button>
+                    <button class="btn5"></button>
+                    <button class="btn6"></button>
+                    <button class="btn7"></button>
+                    <button class="btn8"></button>
+                    <button class="btn6"></button>
+                    <button class="btn7"></button>
+                    <button class="btn8"></button>
+                </div>
+                <hr>
+                <div class="filter-price">
+                    <p class="title">Price</p>
+                    <input type="range" class="form-range" id="customRange1">
+                    <p class="price-des">$ 0 - $ 255</p>
+                </div>
+                
+           </div>
+
+        </div>
+      </div>
+      <!--Filter Box end-->
+
+    <!--Item list style 01-->
+    <div class="container item-list-style-01">
+
+        <div class="row con">
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img1 img" style="background-image: url(../img/shop-item/jaket/01/jacket-1-yellow.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="offer-lable-bach">
+                        <p>20%</p>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                        <div class="color-option">
+                            <button class="btn1"></button>
+                            <button class="btn2"></button>
+                            <button class="btn3"></button>
+                        </div>
+                        <div class="size-option">
+                            <button class="btn1">S</button>
+                            <button class="btn2">M</button>
+                            <button class="btn3">X</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img2 img" style="background-image: url(../img/shop-item/t-shut/01/tshut-01.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="newitem-lable-bach">
+                        <p>New</p>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                    <div class="color-option">
+                        <button class="btn4"></button>
+                        <button class="btn3"></button>
+                        <button class="btn2"></button>
+                        <button class="btn1"></button>
+                    </div>
+                    <div class="size-option">
+                        <button class="btn3">X</button>
+                        <button class="btn4">XL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img3 img" style="background-image: url(../img/shop-item/t-shut/01/tshut-02.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                    <div class="color-option">
+                        <button class="btn3"></button>
+                        <button class="btn1"></button>
+                    </div>
+                    <div class="size-option">
+                        <button class="btn2">M</button>
+                        <button class="btn3">X</button>
+                        <button class="btn4">XL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img1 img" style="background-image: url(../img/shop-item/jaket/01/jacket-1-blue.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="offer-lable-bach">
+                        <p>30%</p>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                        <div class="color-option">
+                            <button class="btn1"></button>
+                            <button class="btn2"></button>
+                            <button class="btn3"></button>
+                        </div>
+                        <div class="size-option">
+                            <button class="btn1">S</button>
+                            <button class="btn2">M</button>
+                            <button class="btn3">X</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img1 img" style="background-image: url(../img/shop-item/smart-watch/1.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="offer-lable-bach">
+                        <p>20%</p>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                        <div class="color-option">
+                            <button class="btn1"></button>
+                            <button class="btn2"></button>
+                            <button class="btn3"></button>
+                        </div>
+                        <div class="size-option">
+                            <button class="btn1">S</button>
+                            <button class="btn2">M</button>
+                            <button class="btn3">X</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img1 img" style="background-image: url(../img/shop-item/tru/1.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="offer-lable-bach">
+                        <p>20%</p>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                        <div class="color-option">
+                            <button class="btn1"></button>
+                            <button class="btn2"></button>
+                            <button class="btn3"></button>
+                        </div>
+                        <div class="size-option">
+                            <button class="btn1">S</button>
+                            <button class="btn2">M</button>
+                            <button class="btn3">X</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img1 img" style="background-image: url(../img/shop-item/bag/1.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="offer-lable-bach">
+                        <p>20%</p>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                        <div class="color-option">
+                            <button class="btn1"></button>
+                            <button class="btn2"></button>
+                            <button class="btn3"></button>
+                        </div>
+                        <div class="size-option">
+                            <button class="btn1">S</button>
+                            <button class="btn2">M</button>
+                            <button class="btn3">X</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img1 img" style="background-image: url(../img/shop-item/jaket/01/jacket-1-pink-gir.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="offer-lable-bach">
+                        <p>20%</p>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                        <div class="color-option">
+                            <button class="btn1"></button>
+                            <button class="btn2"></button>
+                            <button class="btn3"></button>
+                        </div>
+                        <div class="size-option">
+                            <button class="btn1">S</button>
+                            <button class="btn2">M</button>
+                            <button class="btn3">X</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+         <!--item-->
+         <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img1 img" style="background-image: url(../img/shop-item/jaket/01/jacket-1-yellow.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="offer-lable-bach">
+                        <p>20%</p>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                        <div class="color-option">
+                            <button class="btn1"></button>
+                            <button class="btn2"></button>
+                            <button class="btn3"></button>
+                        </div>
+                        <div class="size-option">
+                            <button class="btn1">S</button>
+                            <button class="btn2">M</button>
+                            <button class="btn3">X</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img2 img" style="background-image: url(../img/shop-item/t-shut/01/tshut-01.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="newitem-lable-bach">
+                        <p>New</p>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                    <div class="color-option">
+                        <button class="btn4"></button>
+                        <button class="btn3"></button>
+                        <button class="btn2"></button>
+                        <button class="btn1"></button>
+                    </div>
+                    <div class="size-option">
+                        <button class="btn3">X</button>
+                        <button class="btn4">XL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img3 img" style="background-image: url(../img/shop-item/t-shut/01/tshut-02.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                    <div class="color-option">
+                        <button class="btn3"></button>
+                        <button class="btn1"></button>
+                    </div>
+                    <div class="size-option">
+                        <button class="btn2">M</button>
+                        <button class="btn3">X</button>
+                        <button class="btn4">XL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--item-->
+        <div class="item-container col-xl-3 col-lg-4 col-sm-6">
+            <div class="item-content">
+                <div class="img1 img" style="background-image: url(../img/shop-item/jaket/01/jacket-1-blue.jpg);">
+                    <div class="right-top-up-optionbar">
+                        <button type="button" class="btn1"><i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+                        <button type="button" class="btn1"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="offer-lable-bach">
+                        <p>30%</p>
+                    </div>
+                </div>
+                    <a href="" class="item-name">Round Neck T-Shirt</a>
+                    <div class="rating-bar">
+                        <i class="fa fa-star s1" aria-hidden="true"></i>
+                        <i class="fa fa-star s2" aria-hidden="true"></i>
+                        <i class="fa fa-star s3" aria-hidden="true"></i>
+                        <i class="fa fa-star s4" aria-hidden="true"></i>
+                        <i class="fa fa-star s5" aria-hidden="true"></i>
+                    </div>
+                    <div class="price-bar">
+                        <p class="normal"><span>$</span>30.00</p>
+                        <p class="descount"><span>$</span>20.00</p>
+                    </div>
+                    <div class="bottom-option">
+                        <div class="color-option">
+                            <button class="btn1"></button>
+                            <button class="btn2"></button>
+                            <button class="btn3"></button>
+                        </div>
+                        <div class="size-option">
+                            <button class="btn1">S</button>
+                            <button class="btn2">M</button>
+                            <button class="btn3">X</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+        </div>
+
+    </div>
+
+    <!-- vendor aria-->
+    <div class="container top-vendor-card">
+        <div class="h-01 pt-5 mb-4">
+            <h2>Our vendor</h2>
+            <p>Browse The Collection of <a href="">All Vendors</a>.</p>
+        </div>
+        <div class="row">
+            <!--Card item-->
+            <div class="vendor-card col-lg-3 col-md-6">
+                <div class="content">
+                    <div class="vender-info">
+                        <img src="../img/logo/logo.png" alt="" class="img-fluid">
+                        <div class="dis">
+                            <a class="name" href="">Neon Fashion</a>
+                            <p class="products-count">154 Products</p>
+                            <div class="rating-aria">
+                                <div>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star not" aria-hidden="true"></i>
+                                </div>
+                                <p>Sales 954</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr-1 mt-2 mb-3">
+                    <div class="row product-img">
+                        <div class="col-6 ps-2 pt-2 pe-1">
+                            <img src="../img/shop-item/jaket/01/jacket-1-blue.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 pt-2 pe-2 ps-1">
+                            <img src="../img/shop-item/jaket/01/jacket-1-yellow.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 ps-2 pt-2 pb-2 pe-1">
+                            <img src="../img/shop-item/jaket/01/jacket-1-pink-gir.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 pt-2 pe-2 pb-2 ps-1">
+                            <img src="../img/shop-item/jaket/01/jacket-1-white.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card item end-->
+            <!--Card item-->
+            <div class="vendor-card col-lg-3 col-md-6">
+                <div class="content">
+                    <div class="vender-info">
+                        <img src="../img/logo/logo1.png" alt="" class="img-fluid">
+                        <div class="dis">
+                            <a class="name" href="">Marvelus</a>
+                            <p class="products-count">218 Products</p>
+                            <div class="rating-aria">
+                                <div>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                <p>Sales 1209</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr-1 mt-2 mb-3">
+                    <div class="row product-img">
+                        <div class="col-6 ps-2 pt-2 pe-1">
+                            <img src="../img/shop-item/smart-watch/1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 pt-2 pe-2 ps-1">
+                            <img src="../img/shop-item/t-shut/01/tshut-01.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 ps-2 pt-2 pb-2 pe-1">
+                            <img src="../img/shop-item/t-shut/01/tshut-02.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 pt-2 pe-2 pb-2 ps-1">
+                            <img src="../img/shop-item/smart-watch/1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card item end-->
+            <!--Card item-->
+            <div class="vendor-card col-lg-3 col-md-6">
+                <div class="content">
+                    <div class="vender-info">
+                        <img src="../img/logo/logo2.png" alt="" class="img-fluid">
+                        <div class="dis">
+                            <a class="name" href="">Oveva Fashion</a>
+                            <p class="products-count">79 Products</p>
+                            <div class="rating-aria">
+                                <div>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star not" aria-hidden="true"></i>
+                                    <i class="fa fa-star not" aria-hidden="true"></i>
+                                    <i class="fa fa-star not" aria-hidden="true"></i>
+                                </div>
+                                <p>Sales 225</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr-1 mt-2 mb-3">
+                    <div class="row product-img">
+                        <div class="col-6 ps-2 pt-2 pe-1">
+                            <img src="../img/shop-item/jaket/01/jacket-1-blue.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 pt-2 pe-2 ps-1">
+                            <img src="../img/shop-item/jaket/01/jacket-1-yellow.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 ps-2 pt-2 pb-2 pe-1">
+                            <img src="../img/shop-item/jaket/01/jacket-1-pink-gir.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 pt-2 pe-2 pb-2 ps-1">
+                            <img src="../img/shop-item/jaket/01/jacket-1-white.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card item end-->
+            <!--Card item-->
+            <div class="vendor-card col-lg-3 col-md-6">
+                <div class="content">
+                    <div class="vender-info">
+                        <img src="../img/logo/logo3.png" alt="" class="img-fluid">
+                        <div class="dis">
+                            <a class="name" href="">Senva Art</a>
+                            <p class="products-count">201 Products</p>
+                            <div class="rating-aria">
+                                <div>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star not" aria-hidden="true"></i>
+                                    <i class="fa fa-star not" aria-hidden="true"></i>
+                                </div>
+                                <p>Sales 890</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr-1 mt-2 mb-3">
+                    <div class="row product-img">
+                        <div class="col-6 ps-2 pt-2 pe-1">
+                            <img src="../img/shop-item/smart-watch/1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 pt-2 pe-2 ps-1">
+                            <img src="../img/shop-item/t-shut/01/tshut-01.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 ps-2 pt-2 pb-2 pe-1">
+                            <img src="../img/shop-item/t-shut/01/tshut-02.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6 pt-2 pe-2 pb-2 ps-1">
+                            <img src="../img/shop-item/smart-watch/1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card item end-->
+        </div>
+    </div>
+    <!-- vendor aria end-->
+
+    <!--Footer-->
+    <div class="footer container-fluid">
+        <div class="footer-top-bar">
+            <p>Win a contest  Get this limited-edition</p>
+            <a href="">View Details</a>
+        </div>
+        <div class="footer-bottom-bar container row">
+
+            <div class="col-lg-3 website-details">
+                <div class="content">
+                    <div class="logo">
+                        <img src="../img/logo/logo.png" alt="" class="img-fluid">
+                        <p>Shop</p>
+                    </div>
+                    <div class="website-details d-none d-lg-block">
+                        <address>
+                            30 / 71 B Nugewattha, Awissawella.
+                        </address>
+                        <div class="contact-item">
+                            <p><span>Call us : </span><a href="">+77 851 9573</a></p>
+                            <p><span>E-Mail : </span><a href="mailto:tgsnimesh@gmail.com">tgsnimesh@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 d-none d-lg-block">
+                <div class="content">
+                    <p class="title">Informataion</p>
+                    <hr class="hr-1">
+                    <ul>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Delivery Informataion</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2 d-none d-lg-block">
+                <div class="content">
+                    <p class="title">Account</p>
+                    <hr class="hr-1">
+                    <ul>
+                        <li><a href="">My Account</a></li>
+                        <li><a href="">Order History</a></li>
+                        <li><a href="">Wish List</a></li>
+                        <li><a href="">Spasial</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2 d-none d-lg-block">
+                <div class="content">
+                    <p class="title">Services</p>
+                    <hr class="hr-1">
+                    <ul>
+                        <li><a href="">Descount Returns</a></li>
+                        <li><a href="">Policy & Policy</a></li>
+                        <li><a href="">Customes Service</a></li>
+                        <li><a href="">Term and Condition</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="content">
+                    <p class="title">Newsletter</p>
+                    <hr class="hr-1">
+                    <p class="newletter-des">Get instant updates about our news products and spacialpromos !</p>
+                    <div class="email-bar">
+                        <input type="email" name="email" placeholder="Enter your email here...">
+                        <button class="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Mobile responsive footer-->
+            <div class="accordion d-lg-none footer-mobile" id="accordionExample1">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                        <p>About us</p>
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+                      <div class="accordion-body">
+                        <div class="website-details">
+                            <address>
+                                30 / 71 B Nugewattha, Awissawella.
+                            </address>
+                            <div class="contact-item">
+                                <p><span>Call us : </span><a href="">+77 851 9573</a></p>
+                                <p><span>E-Mail : </span><a href="mailto:tgsnimesh@gmail.com">tgsnimesh@gmail.com</a></p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <p>Information</p>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample1">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Delivery Informataion</a></li>
+                            <li><a href="">Contact us</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <p>Account</p>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample1">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><a href="">My Account</a></li>
+                            <li><a href="">Order History</a></li>
+                            <li><a href="">Wish List</a></li>
+                            <li><a href="">Spasial</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <p>Services</p>
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample1">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><a href="">Descount Returns</a></li>
+                            <li><a href="">Policy & Policy</a></li>
+                            <li><a href="">Customes Service</a></li>
+                            <li><a href="">Term and Condition</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
+                      <p>Newsletter</p>
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample1">
+                    <div class="accordion-body">
+                        <p class="newletter-des">Get instant updates about our news products and spacialpromos !</p>
+                        <div class="email-bar">
+                            <input type="email" name="email" placeholder="Enter your email here...">
+                            <button class="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            <!--Mobile responsive footer end-->
+            
+        </div>
+
+        <hr class="hr-1">
+
+        <div class="footer-bottom-details-bar container">
+            <div class="sosial-media">
+                <!--LINK TO SOSIAL MEDIA LINK-->
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></i>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></i>
+                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></i>
+            </div>
+            <div class="copright-text">
+                <p>Coppyright &copy; 2001-2002 <a href="">SHOP</a>. All rights Reseved</p>
+            </div>
+            <div class="payment-info-img">
+                <img src="../img/payment-img/mastercard.png" alt="">
+                <img src="../img/payment-img/paypal.png" alt="">
+                <img src="../img/payment-img/skrill.jpg" alt="">
+                <img src="../img/payment-img/visa.png" alt="">
+                <img src="../img/payment-img/visaelectorn.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <!--Footer end-->
+
+</body>
+</html>

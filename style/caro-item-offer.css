@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caro-item-offer{
+    margin: auto;
+    padding: 0;
+}
+.caro-item-offer .item .header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.caro-item-offer .item .header-section .move-button button{
+    background-color: transparent;
+    border: none;
+    margin-left: 0.5rem;
+    transition: 0.2s;
+    color: var(--text-gray-header);
+    font-size: 1.2em;
+}
+.caro-item-offer .item .header-section .move-button button:hover{
+    color: var(--pink);
+}
+
+/*caro item style*/
+.caro-item-offer .carousel .carousel-inner .carousel-item .content-section .image{
+    padding-left: 2rem;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item{
+    background-color: var(--bg-1);
+}
+
+.caro-item-offer .carousel .carousel-inner .carousel-item .des{
+    font-family: var(--font-2);
+    padding: 2rem;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .name{
+    font-size: 1.25em;
+    color: var(--text-gray-2);
+    margin-bottom: 0.2rem;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .wort-contrent{
+    display: flex;
+    align-items: center;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .wort-contrent p{
+    margin: 0;
+    margin-left: 1rem;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .wort-contrent i{
+    color: #FF9494;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .wort-contrent .not{
+    color: #FFE3E1;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .wort-contrent p{
+    color: var(--text-gray);
+    font-family: var(--font-2);
+    font-size: 0.9em;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .price{
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .price .normal{
+    margin-right: 1rem;
+    font-size: 0.85em;
+    text-decoration: line-through;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .price .discount{
+    font-weight: bold;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .timer{
+    display: flex;
+    align-items: center;
+
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .timer div{
+    margin-right: 1rem;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .timer div p{
+    font-size: 0.8em;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .timer div .time{
+    background-color: #FFE3E1;
+    text-align: center;
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px;
+    color: var(--text-gray-2);
+    font-size: 0.9em;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .item-dis{
+    color: var(--text-gray);
+    font-size: 0.9em;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .total-booking{
+    color: var(--text-gray-header);
+    font-weight: bold;
+    margin: 0;
+    margin-top: 0.6rem;
+    letter-spacing: 0.075em;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .total-booking span{
+    color: var(--pink);
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .btn{
+    padding: 0;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .btn button{
+    border: none;
+    margin-right: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 0.5rem 0.8rem;
+    color: whitesmoke;
+    letter-spacing: 0.1em;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .btn .btn-remind{
+    background-color: var(--text-gray-2);
+    transition: 0.4s;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .btn .btn-remind:hover{
+    background-color: var(--pink);
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .btn .btn-book{
+    background-color: var(--pink);
+    transition: 0.4s;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .des .btn .btn-book:hover{
+    background-color: var(--text-gray-2);
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .content-section .image{
+    position: relative;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item .content-section .image .v-i{
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.caro-item-offer .carousel .carousel-inner .carousel-item:hover{
+    cursor: default;
+}
+
+@media screen and (max-width: 576px){
+    .caro-item-offer .carousel .carousel-inner .carousel-item .content-section .image{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .caro-item-offer .carousel .carousel-inner .carousel-item .content-section .image img{
+        max-width: 200px;
+    }
+    .caro-item-offer .carousel .carousel-inner .carousel-item .content-section .image{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1400px){
+    .caro-item-offer .carousel .carousel-inner .carousel-item .des .btn button{
+        font-size: 0.7em;
+    }
+}

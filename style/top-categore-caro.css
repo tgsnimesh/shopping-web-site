@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-caregore-caro{
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-caregore-caro .button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.top-caregore-caro .image img{
+    max-height: 350px;
+    object-fit: cover;
+}
+.top-caregore-caro .button button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.7rem;
+    border: none;
+    margin-bottom: 0.5rem;
+    background-color: var(--bg-1);
+    transition: 0.4s;
+}
+.top-caregore-caro .button button:hover{
+    background-color: var(--pink);
+}
+.top-caregore-caro .button button:hover .top-caregore-caro-btn-i, .top-caregore-caro .button button:hover .top-caregore-caro-btn-des h2, .top-caregore-caro .button button:hover .top-caregore-caro-btn-des p{
+    color: var(--text-white-2);
+}
+.top-caregore-caro .button button i{
+    font-size: 2.5em;
+    color: var(--text-gray-2);
+    margin: 0.5rem 1rem;
+}
+.top-caregore-caro .button button .des h2{
+    font-family: var(--font-header-1);
+    font-size: 1.1em;
+    margin: 0;
+    text-align: left;
+    color: var(--text-gray-2);
+    margin-bottom: 0.2rem;
+}
+.top-caregore-caro .button button .des p{
+    font-family: var(--font-2);
+    font-size: 0.85em;
+    color: var(--text-gray);
+    margin: 0;
+}
+.top-caregore-caro .carousel .carousel-inner .carousel-item{
+    position: relative;
+}
+.top-caregore-caro .carousel .carousel-inner .carousel-item button{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 0.5rem 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 2;
+    background-color: var(--pink);
+    border: none;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-family: var(--font-2);
+    font-weight: bold;
+    color: whitesmoke;
+    letter-spacing: 0.1em;
+}
+.top-caregore-caro .carousel .carousel-inner .carousel-item button:hover{
+    background-color: rgb(70, 70, 70);
+}
+.top-caregore-caro .carousel .carousel-inner .carousel-item::after{
+    content: '';
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    transition: 0.5s;
+}
+.top-caregore-caro .carousel .carousel-inner .carousel-item:hover::after{
+    width: 100%;
+}
+.top-caregore-caro .carousel .carousel-inner .carousel-item:hover .btn-top-caro-see-all{
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width: 992px){
+    .top-caregore-caro .button button i{
+        font-size: 2.3em;
+    }
+    .top-caregore-caro .button button .des h2{
+        font-size: 1em;
+    }
+    .top-caregore-caro .button button .des p{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 500px){
+    .top-caregore-caro .button button i{
+        font-size: 1.9em;
+    }
+    .top-caregore-caro .button button .des h2{
+        font-size: 0.9em;
+    }
+    .top-caregore-caro .button button .des p{
+        font-size: 0.7em;
+    }
+    .top-caregore-caro .carousel .carousel-inner .carousel-item button{
+        font-size: 0.6em;
+    }
+}
+@media screen and (max-width: 340px){
+    .top-caregore-caro .button button i{
+        display: none;
+    }
+}
+
+

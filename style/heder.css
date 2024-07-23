@@ -1,0 +1,651 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-01{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+.right-select-option-aria div{
+    display: flex;
+    justify-content: flex-end;
+}
+.sosial-media a i{
+    color: var(--text-gray-2);
+    width: 27px;
+    height: 27px;
+    padding: 0.4rem;
+    margin-right: 0.2rem;
+    background-color: var(--bg-1);
+    border-radius: 100px;
+    border: 1px solid rgba(139, 139, 139, 0.137);
+    font-size: 0.95em;
+    transition: 0.4s;
+}
+.sosial-media a .fa-facebook:hover{
+    background-color: 	#4267B2;
+    color: var(--text-white);
+}
+.sosial-media a .fa-twitter:hover{
+    background-color: 	#1DA1F2;
+    color: var(--text-white);
+}
+.sosial-media a .fa-instagram:hover{
+    background-color: #C13584;
+    color: var(--text-white);
+}
+.sosial-media a .fa-linkedin:hover{
+    background-color: #0072b1;
+    color: var(--text-white);
+}
+.header-01 .header-offer-text{
+    color: var(--text-gray);
+}
+.header-01 .header-offer-text p{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.06em;
+}
+.right-select-option-aria .dropdown .dropdown-toggle{
+    background-color: transparent;
+    border: none;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    font-size: 0.85em;
+    margin-left: 1rem;
+    transition: 0.4s;
+}
+.right-select-option-aria .dropdown ul li a{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: var(--text-gray);
+    transition: 0.4s;
+}
+.right-select-option-aria .dropdown ul li{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+}
+.right-select-option-aria .dropdown ul li:last-child{
+    border: none;
+}
+.right-select-option-aria .dropdown ul li a:hover{
+    background-color: transparent;
+}
+.right-select-option-aria .dropdown .dropdown-toggle:hover{
+    color: black;
+}
+.right-mobile-option-bar{
+    margin: 0.5rem 0;
+}
+.right-mobile-option-bar i{
+    font-size: 1.5em;
+    margin-left: 1.2rem;
+    color: var(--text-gray-2);
+    transition: 0.4s;
+}
+.right-mobile-option-bar i:hover{
+    color: var(--pink);
+}
+.right-mobile-option-bar .fa-th-large:hover{
+    color: var(--text-gray);
+}
+.right-mobile-option-bar .fa-bars{
+    margin-left: 2rem;
+}
+.right-mobile-option-bar .right-side{
+    display: flex;
+    justify-content: space-between;
+}
+.right-mobile-option-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 575px) {
+    .right-mobile-option-bar{
+        width: 95%;
+    }
+}
+
+.hr-1{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(128, 128, 128, 0.658);
+}
+
+.badge-style-1{
+    background-color: rgb(75, 71, 71);
+    padding: 0.3rem 0.5rem;
+}
+.badge-style-1 p{
+    font-size: 0.5em;
+}
+i:hover .badge-style-1{
+    background-color: var(--text-black);
+}
+
+.offcanvas-title{
+    color: var(--pink);
+    font-weight: bold;
+    font-family: var(--option-bar-font-h1);
+}
+.offcanvas .offcanvas-header .btn-close{
+    box-shadow: none;
+}
+
+.mycard .offcanvas-header h5{
+    font-family: var(--option-bar-font-h1);
+    color: var(--text-black);
+}
+.category .offcanvas-header h5{
+    font-family: var(--option-bar-font-h1);
+    color: var(--text-black);
+}
+
+
+/*
+    Header 02
+*/
+
+.header-02{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1.3rem 0;
+}
+.logo-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-gray-2);
+    margin: 0;
+    padding: 0;
+}
+.logo-container h1{
+    padding: 0;
+    margin: 0;
+    margin-left: 0.3rem;
+}
+.logo-container img{
+    width: 50px;
+}
+.search-bar .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-1);
+    padding: 0.7rem 1rem;
+}
+.search-bar .search input{
+    background-color: transparent;
+    border: none;
+    font-family: var(--font-2);
+    margin-right: 0.5rem;
+    font-size: 0.9em;
+}
+.search-bar .search button{
+    background-color: transparent;
+    border: none;
+}
+.search-bar .search button i{
+    font-size: 1.05em;
+    transition: 0.3s;
+}
+.search-bar .search button i:hover{
+    color: var(--pink);
+}
+.search-bar .search input:focus{
+    outline: none;
+}
+.right-icon-menu a i{
+    font-size: 2em;
+    margin-left: 2rem;
+    color: var(--text-gray-2);
+    transition: 0.4s;
+}
+.right-icon-menu a i:hover{
+    color: var(--pink);
+}
+.right-icon-menu div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 575px){
+    .header-02 .logo-container{
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .search-bar .search{
+        width: 85%;
+        margin: auto;
+    }
+    .logo-container img{
+        width: 40px;
+    }
+    .logo-container h1{
+        font-size: 1.5em;
+    }
+}
+
+/*Header 03*/
+
+.header-03 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-03 .center-nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.header-03 .center-nav-bar ul li{
+    margin-right: 2.5rem;
+    position: relative;
+}
+.header-03 .center-nav-bar ul li a{
+    font-family: var(--font-2);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.88em;
+    text-decoration: none;
+    color: var(--text-gray-2);
+    transition: 0.4s;
+    position: relative;
+    padding-bottom: 0.9rem;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+.header-03 .center-nav-bar ul li a:hover{
+    color: var(--pink);
+}
+.header-03 .center-nav-bar ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--pink);
+    border-radius: 2px;
+    transition: 0.4s;
+}
+.right-icon-btn i{
+    position: relative;
+}
+.header-03 .center-nav-bar ul li a:hover::after{
+    width: 100%;
+}
+.left-icon-btn i, .right-icon-btn i{
+    font-size: 1.5em;
+    color: var(--text-gray-2);
+    transition: 0.4s;
+}
+.right-icon-btn i:hover{
+    color: var(--pink);
+}
+.header-03 .center-nav-bar .act a{
+    color: var(--pink);
+}
+.header-03 .center-nav-bar .act a::after{
+    width: 100%;
+}
+.spinner-grow{
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: 40%;
+}
+
+/*Category Mobile View*/
+.category .offcanvas-header .offcanvas-title{
+    margin-left: 0.6rem;
+    padding: 0;
+    font-family: var(--font-header-1);
+    letter-spacing: 0.04em;
+    color: var( --text-gray-header);
+}
+.category .offcanvas-header button{
+    margin-right: 0.3rem;
+}
+.category .offcanvas-body{
+    padding: 0;
+}
+.category-mobile-list .accordion-item{
+    border: none;
+    margin: 0rem 0.5rem;
+}
+.category-mobile-list .accordion-item .accordion-header .accordion-button{
+    background-color: transparent;
+    box-shadow: none;
+}
+.category-mobile-list .accordion-item .accordion-header .accordion-button p{
+    margin: 0;
+    font-family: var(--font-2);
+    font-weight: bold;
+    font-size: 1em;
+}
+.category-mobile-list .accordion-item .accordion-header .accordion-button p{
+    color: var(--text-gray-2);
+}
+.category-mobile-list .accordion-item .accordion-header .accordion-button p i{
+    margin-right: 0.6rem;
+    color: var(--pink);
+}
+.category-mobile-list .accordion-item .accordion-collapse .accordion-body{
+    border-top: 1px solid rgba(128, 128, 128, 0.151);
+}
+.category-mobile-list .accordion-item .accordion-collapse .accordion-body ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 0.4rem;
+}
+.category-mobile-list .accordion-item .accordion-collapse .accordion-body ul li{
+    margin-top: 0.5rem;
+}
+.category-mobile-list .accordion-item .accordion-collapse .accordion-body ul li a{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-2);
+    font-size: 0.9em;
+    text-decoration: none;
+    color: var(--text-gray);
+    transition: 0.4s;
+}
+.category-mobile-list .accordion-item .accordion-collapse .accordion-body ul li a:hover{
+    color: var(--pink);
+}
+
+@media screen and (max-width: 992px){
+    .category-mobile-list .accordion-item .accordion-header .accordion-button p{
+        font-size: 0.9em;
+    }
+    .category-mobile-list .accordion-item .accordion-collapse .accordion-body ul li a{
+        font-size: 0.85em;
+    }
+}
+
+.category-mobile-list .bottom-caro{
+    padding: 1.7rem;
+}
+.category-mobile-list .bottom-caro .title-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.category-mobile-list .bottom-caro .title-bar h2{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-family: var(--font-header-1);
+    letter-spacing: 0.04em;
+    color: var( --text-gray-header);
+}
+.category-mobile-list .bottom-caro .title-bar button{
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    margin-left: 0.6rem;
+    transition: 0.4s;
+}
+.category-mobile-list .bottom-caro .title-bar button:hover{
+    color: var(--pink);
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item img{
+    max-width: 90px;
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item img img{
+    object-fit: cover;
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item .des{
+    margin-left: 0.5rem;
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item .des p{
+    margin: 0;
+    color: var(--text-gray-2);
+    font-family: var(--font-2);
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item .des a{
+    text-decoration: none;
+    color: var(--text-gray-header);
+    font-family: var(--font-2);
+    transition: 0.4s;
+    font-size: 1.05em;
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item .des a:hover{
+    color: var(--pink);
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item .des .vote i{
+    font-size: 0.8em;
+    color: #FF9494;
+    margin: 0.5rem 0;
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item .des .vote .not{
+    color: #FFE3E1;
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item .des .price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item .des .price .normal{
+    font-size: 0.9em;
+    color: var(--text-gray);
+    text-decoration: line-through;
+    margin-right: 0.8rem;
+}
+.category-mobile-list .bottom-caro .carousel .carousel-inner .carousel-item .item .des .price .discount{
+    font-weight: bold;
+}
+
+/*My Card Styles*/
+.mycard .offcanvas-header .offcanvas-title{
+    font-size: 1.25em;
+    color: var(--text-gray-2);
+    font-family: var(--font-2);
+}
+.mycard .offcanvas-body .my-card-container{
+    height: 100%;
+    position: relative;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .img{
+    width: 90px;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .img img{
+    object-fit: cover;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .item-dis{
+    font-family: var(--font-2);
+    color: var(--text-gray-2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.8rem;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .item-dis a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: var(--text-gray-2);
+    transition: 0.4s;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .item-dis a:hover{
+    color: var(--pink);
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .item-dis p{
+    color: var(--text-gray-header);
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .item-dis p span{
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-left: 0.3rem;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .item-dis .quentity-bar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.6rem;
+    padding: 0.3rem 0;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .item-dis .quentity-bar{
+    border: 1px solid rgba(128, 128, 128, 0.336);
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .item-dis .quentity-bar button{
+    padding: 0rem 0.6rem;
+    font-weight: bold;
+    color: var(--text-gray);
+    background-color: transparent;
+    border: none;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .item-dis .quentity-bar p{
+    margin: 0;
+    padding: 0rem 0.6rem;
+    border-left: 1px solid rgba(128, 128, 128, 0.336);
+    border-right: 1px solid rgba(128, 128, 128, 0.336);
+    font-weight: normal;
+    font-size: 0.85em;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .btn-remove-item button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-weight: bold;
+    color: var(--pink);
+    transition: 0.4s;
+}
+.mycard .offcanvas-body .my-card-container .card-item-list .item .btn-remove-item button:hover{
+    color: var(--text-gray);
+}
+.mycard .offcanvas-body .my-card-container .card-information-bar{
+    padding: 0.5rem 1rem;
+    color: var(--text-gray-2);
+    font-family: var(--font-2);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.mycard .offcanvas-body .my-card-container .card-information-bar p{
+    margin: 0;
+    margin-top: 0.7rem;
+}
+.mycard .offcanvas-body .my-card-container .card-information-bar div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mycard .offcanvas-body .my-card-container .card-information-bar div span{
+    font-weight: bold;
+    color: var(--text-gray-header);
+    margin-top: 0.7rem;
+}
+.mycard .offcanvas-body .my-card-container .card-information-bar .btn{
+    padding: 0;
+    margin-top: 1rem;
+}
+.mycard .offcanvas-body .my-card-container .card-information-bar .btn button{
+    color: var(--text-white);
+    border: none;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem;
+}
+.mycard .offcanvas-body .my-card-container .card-information-bar .btn .btn-view-card{
+    background-color: var(--pink);
+    font-family: var(--font-2);
+    transition: 0.4s;
+}
+.mycard .offcanvas-body .my-card-container .card-information-bar .btn .btn-view-card:hover{
+    background-color: var(--text-gray-2);
+}
+.mycard .offcanvas-body .my-card-container .card-information-bar .btn .btn-checkout{
+    background-color: var(--text-gray-2);
+    font-family: var(--font-2);
+    transition: 0.4s;
+}
+.mycard .offcanvas-body .my-card-container .card-information-bar .btn .btn-checkout:hover{
+    background-color: var(--pink);
+}
+
+@media screen and (max-width:390px){
+    .mycard .offcanvas-body .my-card-container .card-information-bar .btn button{
+        font-size: 0.8em;
+        padding: 0.5rem 1.6rem;
+    }
+}
+@media screen and (max-width:315px){
+    .mycard .offcanvas-body .my-card-container .card-information-bar .btn button{
+        font-size: 0.8em;
+        padding: 0.5rem 1rem;
+    }
+}
+
+.my-menu-mobile .offcanvas-header h5{
+    font-family: var(--font-2);
+}
+.my-menu-mobile .offcanvas-body ul{
+    list-style: none;
+    padding: 0;
+}
+.my-menu-mobile .offcanvas-body ul li{
+    margin-top: 0.8rem;
+}
+.my-menu-mobile .offcanvas-body ul li a{
+    font-family: var(--font-2);
+    text-decoration: none;
+    color: var(--text-gray-2);
+}
+.my-menu-mobile .offcanvas-body ul li a:hover{
+    color: var(--pink);
+}
+
+.page-indigatorcontainer{
+    background-color: var(--bg-1);
+    padding: 0.5rem 0;
+}
+.page-indigatorcontainer ol{
+    margin: 0.5rem 0;
+}
+.page-indigatorcontainer ol li a{
+    font-family: var(--font-2);
+}
+.page-indigatorcontainer .page-indigatorcontainer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-indigatorcontainer .page-indigatorcontainer-container .page-title p{
+    margin: 0;
+    font-size: 1.2em;
+    font-family: var(--option-bar-font-h1);
+    color: var(--text-gray-2);
+}
