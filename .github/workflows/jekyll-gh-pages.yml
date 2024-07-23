@@ -42,7 +42,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: "https://github.com/tgsnimesh/shopping-web-site/tree/main/html"
+      url: "https://github.com/tgsnimesh/shopping-web-site/blob/main/html/index.html"
     runs-on: ubuntu-latest
     needs: build
     steps:
